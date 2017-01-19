@@ -44,6 +44,16 @@ return [
             'runner'   => 'ux',
             'notFound' => 'default'
         ]
+    ],
+
+    // default
+    'error' => [
+        'type' => 'pattern',
+        'path' => '/.*',
+
+        'defaults' => [
+            'notFound' => 'default'
+        ]
     ]
 
 ];
