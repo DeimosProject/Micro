@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "deimos/controller": "~0.0",
+    "deimos/controller": "~1.0",
     "deimos/config": "~1.0"
   },
   "autoload": {
